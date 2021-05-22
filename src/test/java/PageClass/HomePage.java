@@ -166,9 +166,7 @@ public class HomePage {
 				WebElement circulatingSuply = driver.findElement(By.xpath("//tbody/tr[1]/td/div/div/p"));
 				scrollToElement(links.get(0));
 				prices.put(Integer.parseInt(id.getText()), new String[]{links.get(0).getText(), links.get(1).getText(), percentages.get(0).getText(), percentages.get(1).getText(), texts.get(1).getText(), links.get(2).getText(), circulatingSuply.getText()});
-				System.out.println(row + "st row values are" + Arrays.toString(prices.get(row)));}
-				// method 1
-				//System.out.println(Collections.singletonList(prices));}
+				System.out.println(row + "st row values are" + Arrays.toString(prices.get(Integer.parseInt(id.getText()))));}
 			else
 				{break;}
 
@@ -204,8 +202,13 @@ public class HomePage {
 //		dataByIndustryFilter.forEach((k, v) -> System.out.println(k+" "+v));
 
 		Map<Integer, String[]> mapC = new HashMap<>(rankingData);
+
+		
 		mapC.keySet().retainAll(dataByIndustryFilter.keySet());
-		mapC.forEach((k, v) -> System.out.println(k+" "+v));
+		mapC.forEach((k, v) -> System.out.println(k+" "+Arrays.toString(v)));
+		Map<Integer, String[]> mapD = new HashMap<>(dataByIndustryFilter);
+		mapD.keySet().retainAll(dataByIndustryFilter.keySet());
+		mapD.forEach((k, v) -> System.out.println(k+" "+Arrays.toString(v)));
 //		System.out.println("Ranking page keys are"+rankingKeys);
 //		System.out.println("Filter page keys are"+filterKeys);
 

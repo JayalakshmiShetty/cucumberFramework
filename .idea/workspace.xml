@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd45387f-5f17-4596-81c1-c2cf8a900b96" name="Default Changelist" comment="" />
+    <list default="true" id="bd45387f-5f17-4596-81c1-c2cf8a900b96" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageClass/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageClass/HomePage.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,7 +29,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1shRuESB3mwFYDFD9q3c2Py6QiW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -102,6 +110,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -157,22 +176,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/PageClass/HomePage.java</url>
-          <line>185</line>
+          <line>183</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/PageClass/HomePage.java</url>
-          <line>188</line>
+          <line>186</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/PageClass/HomePage.java</url>
-          <line>189</line>
+          <line>187</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/PageClass/HomePage.java</url>
-          <line>171</line>
+          <line>169</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -182,12 +201,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/PageClass/HomePage.java</url>
-          <line>208</line>
+          <line>211</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/PageClass/HomePage.java</url>
-          <line>209</line>
+          <line>212</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
