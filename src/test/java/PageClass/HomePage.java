@@ -202,9 +202,7 @@ public class HomePage {
 //		dataByIndustryFilter.forEach((k, v) -> System.out.println(k+" "+v));
 
 		Map<Integer, String[]> mapC = new HashMap<>(rankingData);
-
-		
-		mapC.keySet().retainAll(dataByIndustryFilter.keySet());
+		mapC.keySet().retainAll(rankingData.keySet());
 		mapC.forEach((k, v) -> System.out.println(k+" "+Arrays.toString(v)));
 		Map<Integer, String[]> mapD = new HashMap<>(dataByIndustryFilter);
 		mapD.keySet().retainAll(dataByIndustryFilter.keySet());

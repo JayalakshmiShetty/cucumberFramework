@@ -201,12 +201,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/PageClass/HomePage.java</url>
-          <line>211</line>
+          <line>209</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/PageClass/HomePage.java</url>
-          <line>212</line>
+          <line>210</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
